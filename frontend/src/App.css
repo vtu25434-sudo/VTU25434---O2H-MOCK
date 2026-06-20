@@ -1,0 +1,197 @@
+/* ================= RESET ================= */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+/* ================= LIGHT MODE ================= */
+body:not(.dark) {
+  background: linear-gradient(135deg, #e2e8f0, #f8fafc);
+  color: #111827;
+}
+
+/* ================= DARK MODE ================= */
+body.dark {
+  background: linear-gradient(135deg, #020617, #020617);
+  color: #ffffff;
+}
+
+/* ================= HEADINGS ================= */
+h2 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+  background: rgba(0, 0, 0, 0.85) !important;
+  backdrop-filter: blur(10px);
+}
+
+body:not(.dark) .navbar {
+  background: #111827 !important;
+}
+
+/* ================= CARDS ================= */
+.card {
+  border-radius: 15px;
+  padding: 18px;
+  transition: all 0.3s ease;
+}
+
+/* DARK MODE CARD */
+body.dark .card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+/* LIGHT MODE CARD */
+body:not(.dark) .card {
+  background: #ffffff;
+  color: #111827;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* CARD HOVER */
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* CARD TEXT */
+.card h6 {
+  color: #6b7280;
+}
+
+body.dark .card h6 {
+  color: #cbd5e1;
+}
+
+.card h3 {
+  font-weight: bold;
+}
+
+/* ================= BUTTONS ================= */
+.btn {
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* PRIMARY */
+.btn-primary {
+  background: linear-gradient(45deg, #2563eb, #3b82f6);
+  border: none;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 15px rgba(59,130,246,0.6);
+}
+
+/* SUCCESS */
+.btn-success {
+  background: linear-gradient(45deg, #16a34a, #22c55e);
+  border: none;
+}
+
+/* DANGER */
+.btn-danger {
+  background: linear-gradient(45deg, #dc2626, #ef4444);
+  border: none;
+}
+
+/* ================= INPUTS ================= */
+input, textarea, select {
+  border-radius: 10px !important;
+  padding: 10px;
+  outline: none;
+  transition: 0.2s;
+}
+
+/* DARK MODE INPUT */
+body.dark input,
+body.dark textarea,
+body.dark select {
+  background: rgba(255,255,255,0.1) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* LIGHT MODE INPUT */
+body:not(.dark) input,
+body:not(.dark) textarea,
+body:not(.dark) select {
+  background: #ffffff !important;
+  color: #111827 !important;
+  border: 1px solid #ccc;
+}
+
+/* PLACEHOLDER */
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af;
+}
+
+body.dark input::placeholder,
+body.dark textarea::placeholder {
+  color: #d1d5db;
+}
+
+/* ================= DROPDOWN ================= */
+select option {
+  background: #1e293b;
+  color: white;
+}
+
+body:not(.dark) select option {
+  background: white;
+  color: black;
+}
+
+/* ================= BADGES ================= */
+.badge {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+/* ================= FORM BOX ================= */
+form {
+  border-radius: 15px;
+  padding: 25px;
+}
+
+/* DARK FORM */
+body.dark form {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+}
+
+/* LIGHT FORM */
+body:not(.dark) form {
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* ================= TEXT ================= */
+.text-muted {
+  font-size: 16px;
+}
+
+body.dark .text-muted {
+  color: #bbbbbb !important;
+}
+
+body:not(.dark) .text-muted {
+  color: #6b7280 !important;
+}
+
+/* ================= SCROLL ================= */
+html {
+  scroll-behavior: smooth;
+}
