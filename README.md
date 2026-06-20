@@ -122,43 +122,43 @@ CREATE TABLE tasks (
 
 ### 🖥 Dashboard (Light Mode)
 
-![Dashboard Light](C:\Users\monik\project-portal\output screenshots\dashboard-light.png)
+![Dashboard Light](./screenshots/dashboard-light.png)
 
 ### 🌙 Dashboard (Dark Mode)
 
-![Dashboard Dark](C:\Users\monik\project-portal\output screenshots\dashboard-dark.png)
+![Dashboard Dark](./screenshots/dashboard-dark.png)
 
 ### ➕ Add Task
 
-![Add Task](C:\Users\monik\project-portal\output screenshots\addtask.png)
+![Add Task](./screenshots/addtask.png)
 
 ### ✔ Complete Task
 
-![Complete Task](C:\Users\monik\project-portal\output screenshots\completetask.png)
+![Complete Task](./screenshots/completetask.png)
 
 ### 🗑 Delete Task
 
-![Delete Task](C:\Users\monik\project-portal\output screenshots\deletetask.png)
+![Delete Task](./screenshots/deletetask.png)
 
 ### 💻 Backend Terminal
 
-![Backend](C:\Users\monik\project-portal\output screenshots\backend.png)
+![Backend](./screenshots/backend.png)
 
 ### 💻 Frontend Terminal
 
-![Frontend](C:\Users\monik\project-portal\output screenshots\frontend.png)
+![Frontend](./screenshots/frontend.png)
 
 ### 🗄 MySQL Database
 
-![Database](C:\Users\monik\project-portal\output screenshots\database.png)
+![Database](./screenshots/database.png)
 
 ### 🔍 Search Tasks
 
-![Search Tasks](C:\Users\monik\project-portal\output screenshots\searchtask.png)
+![Search Tasks](./screenshots/searchtask.png)
 
 ### 🎯 Task Filter (Completed View)
 
-![Task Filter Completed](C:\Users\monik\project-portal\output screenshots\taskfiltershowing.png)
+![Task Filter Completed](./screenshots/taskfiltershowing.png)
 
 
 
